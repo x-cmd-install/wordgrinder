@@ -1,11 +1,13 @@
 about:
-  description: A word processor which gets the hell out of your way and lets you get some work done.
+  description:
+  |
+    A word processor which gets the hell out of your way and lets you get some work done.
   license: NOASSERTION
   homepage: http://cowlark.com/wordgrinder
   head: 25cdfc6
   archived: false
   latestVersion: dev
-  collectedAt: 2026-09-03T05:12:27Z
+  collectedAt: 2026-09-03T22:37:49Z
 timeline:
   created: 2015-06-07
   lastCommit: 2026-06-09
@@ -27,7 +29,7 @@ language:
   Makefile: 4728
   C: 1128
   Shell: 647
-totalLine: 684384
+totalBytes: 684384
 recent:
   last30d:
     since: 2026-08-04
