@@ -67,7 +67,7 @@
       "state": "uploaded",
       "size": 1843787,
       "digest": "sha256:b6a405cfcef443f6f5f8e6d3fc9a8eb963dc8ba6673037704e030edfcdbe3ed4",
-      "download_count": 219,
+      "download_count": 221,
       "created_at": "2026-06-09T21:04:16Z",
       "updated_at": "2026-06-09T21:04:17Z",
       "browser_download_url": "https://github.com/davidgiven/wordgrinder/releases/download/dev/WordGrinder-0.9-setup.exe"
@@ -139,7 +139,7 @@
       "state": "uploaded",
       "size": 1727264,
       "digest": "sha256:4ce76b392417ca31f414cf3916f9815d900f59eaff2bedce1327b657978c32fd",
-      "download_count": 55,
+      "download_count": 56,
       "created_at": "2026-06-09T21:04:16Z",
       "updated_at": "2026-06-09T21:04:17Z",
       "browser_download_url": "https://github.com/davidgiven/wordgrinder/releases/download/dev/wordgrinder-minimal-dependencies-for-debian.tar.xz"
