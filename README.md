@@ -48,7 +48,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 1,276 · **Forks**: 74 · **Open issues**: 201 · **Contributors**: 12
+- **Stars**: 1,277 · **Forks**: 74 · **Open issues**: 201 · **Contributors**: 12
 
 ## Totals (cumulative)
 
@@ -58,12 +58,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-13 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last60d | 2026-08-14 | 0 | 0 | 0 | 0 | 0 | 0 |
-| 90d | 2026-07-15 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last180d | 2026-04-16 | 0 | 1 | 2 | 1 | 1 | 1 |
-| 360d | 2025-10-18 | 0 | 1 | 2 | 2 | 8 | 1 |
-| last720d | 2024-10-23 | 0 | 14 | 3 | 12 | 13 | 90 |
+| 30d | 2026-09-14 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-08-15 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 90d | 2026-07-16 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last180d | 2026-04-17 | 0 | 1 | 2 | 1 | 1 | 1 |
+| 360d | 2025-10-19 | 0 | 1 | 2 | 2 | 8 | 1 |
+| last720d | 2024-10-24 | 0 | 14 | 3 | 12 | 13 | 89 |
 
 ## Release assets
 
@@ -82,4 +82,4 @@ Install metadata for wordgrinder lives in the [x-cmd/install](https://github.com
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261013.yml` · 2026-10-13T08:06:39Z._
+_Snapshot: `data/card/261014.yml` · 2026-10-14T06:04:05Z._
