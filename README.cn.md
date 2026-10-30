@@ -31,8 +31,8 @@ x install wordgrinder
 评分最低的几项:
 
 - **Maintained** (0/10) — 0 commit(s) and 0 issue activity found in the last 90 days -- score normalized to 0
-- **Code-Review** (1/10) — Found 1/9 approved changesets -- score normalized to 1
 - **Packaging** (-1/10) — packaging workflow not detected
+- **Code-Review** (1/10) — Found 1/9 approved changesets -- score normalized to 1
 
 ## 源代码
 
@@ -48,7 +48,7 @@ x install wordgrinder
 
 ## 流行度
 
-- **Star**: 1,276 · **Fork**: 74 · **开放 issue**: 201 · **贡献者**: 12
+- **Star**: 1,277 · **Fork**: 74 · **开放 issue**: 201 · **贡献者**: 12
 
 ## 累计统计
 
@@ -58,12 +58,12 @@ x install wordgrinder
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-29 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last60d | 2026-08-30 | 0 | 0 | 0 | 0 | 0 | 0 |
-| 90d | 2026-07-31 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last180d | 2026-05-02 | 0 | 1 | 1 | 1 | 1 | 1 |
-| 360d | 2025-11-03 | 0 | 1 | 2 | 2 | 8 | 1 |
-| last720d | 2024-11-08 | 0 | 14 | 3 | 12 | 13 | 87 |
+| 30d | 2026-09-30 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-08-31 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 90d | 2026-08-01 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last180d | 2026-05-03 | 0 | 1 | 1 | 1 | 1 | 1 |
+| 360d | 2025-11-04 | 0 | 1 | 2 | 2 | 8 | 1 |
+| last720d | 2024-11-09 | 0 | 14 | 3 | 12 | 13 | 87 |
 
 ## Release 资产
 
@@ -98,4 +98,4 @@ wordgrinder 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/insta
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261029.yml` · 2026-10-29T07:00:57Z._
+_数据快照: `data/card/261030.yml` · 2026-10-30T07:06:36Z._
