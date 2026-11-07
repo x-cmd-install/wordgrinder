@@ -58,12 +58,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-07 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last60d | 2026-09-07 | 0 | 0 | 0 | 0 | 0 | 0 |
-| 90d | 2026-08-08 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last180d | 2026-05-10 | 0 | 1 | 1 | 1 | 1 | 1 |
-| 360d | 2025-11-11 | 0 | 1 | 2 | 2 | 8 | 1 |
-| last720d | 2024-11-16 | 0 | 12 | 3 | 12 | 13 | 72 |
+| 30d | 2026-10-08 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-09-08 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 90d | 2026-08-09 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last180d | 2026-05-11 | 0 | 1 | 1 | 1 | 1 | 1 |
+| 360d | 2025-11-12 | 0 | 1 | 2 | 2 | 8 | 1 |
+| last720d | 2024-11-17 | 0 | 12 | 3 | 11 | 13 | 72 |
 
 ## Release assets
 
@@ -72,6 +72,22 @@ Lowest-scoring checks:
 | [WordGrinder-0.9-setup.exe](https://github.com/davidgiven/wordgrinder/releases/download/dev/WordGrinder-0.9-setup.exe) | 1.8 MiB | `other` |
 | [WordGrinder-0.9-setup.pkg](https://github.com/davidgiven/wordgrinder/releases/download/dev/WordGrinder-0.9-setup.pkg) | 1.1 MiB | `other` |
 | [wordgrinder-minimal-dependencies-for-debian.tar.xz](https://github.com/davidgiven/wordgrinder/releases/download/dev/wordgrinder-minimal-dependencies-for-debian.tar.xz) | 1.6 MiB | `other` |
+
+## Distribution status
+
+Reported by **67** distros on [repology.org](https://repology.org/project/wordgrinder). **57** are ✅ on the latest upstream release, **6** are ⚠️ on an older version.
+
+| Distro | Version | Status |
+|--------|---------|--------|
+| Debian unstable | `0.8` | ✅ latest |
+| Debian 13 | `0.8` | ✅ latest |
+| Ubuntu 26.04 LTS | `0.8` | ✅ latest |
+| Ubuntu 24.04 LTS | `0.8` | ✅ latest |
+| Homebrew | `0.8` | ✅ latest |
+| Fedora rawhide | `0.8` | ✅ latest |
+| Nix unstable | `0.8` | ✅ latest |
+| Void | `0.8` | ✅ latest |
+| Alpine edge | `0.8` | ✅ latest |
 
 ## Improve this data
 
@@ -82,4 +98,4 @@ Install metadata for wordgrinder lives in the [x-cmd/install](https://github.com
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261106.yml` · 2026-11-06T07:54:20Z._
+_Snapshot: `data/card/261107.yml` · 2026-11-07T07:10:44Z._
