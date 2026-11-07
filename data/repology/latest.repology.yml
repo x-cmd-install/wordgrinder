@@ -1,19 +1,3 @@
-- repo: pureos_landing
-  subrepo: landing/main
-  srcname: wordgrinder
-  binnames:
-    - wordgrinder
-    - wordgrinder-doc
-    - wordgrinder-ncurses
-    - wordgrinder-x11
-  visiblename: wordgrinder
-  version: "0.8"
-  origversion: 0.8-1
-  status: newest
-  maintainers:
-    - dg@cowlark.com
-  categories:
-    - oldlibs
 - repo: alpine_3_22
   subrepo: community
   srcname: wordgrinder
@@ -414,6 +398,22 @@
     - MIT and BSD and OFL
   categories:
     - Editors
+- repo: pureos_byzantium
+  subrepo: byzantium/main
+  srcname: wordgrinder
+  binnames:
+    - wordgrinder
+    - wordgrinder-doc
+    - wordgrinder-ncurses
+    - wordgrinder-x11
+  visiblename: wordgrinder
+  version: "0.8"
+  origversion: 0.8-1
+  status: newest
+  maintainers:
+    - dg@cowlark.com
+  categories:
+    - oldlibs
 - repo: mageia_10
   subrepo: core/release
   srcname: wordgrinder
@@ -571,7 +571,7 @@
   categories:
     - editors
 - repo: parrot
-  subrepo: parrot-updates/main
+  subrepo: parrot/main
   srcname: wordgrinder
   binnames:
     - wordgrinder
@@ -587,7 +587,7 @@
   categories:
     - editors
 - repo: parrot
-  subrepo: parrot/main
+  subrepo: parrot-updates/main
   srcname: wordgrinder
   binnames:
     - wordgrinder
@@ -618,8 +618,8 @@
     - dg@cowlark.com
   categories:
     - oldlibs
-- repo: pureos_byzantium
-  subrepo: byzantium/main
+- repo: pureos_landing
+  subrepo: landing/main
   srcname: wordgrinder
   binnames:
     - wordgrinder
@@ -873,6 +873,22 @@
     - universe/editors
 - repo: ubuntu_26_10
   subrepo: stonking/universe
+  srcname: wordgrinder
+  binnames:
+    - wordgrinder
+    - wordgrinder-ncurses
+    - wordgrinder-x11
+    - wordgrinder-doc
+  visiblename: wordgrinder
+  version: "0.8"
+  origversion: 0.8-1build3
+  status: newest
+  maintainers:
+    - ubuntu-devel-discuss@lists.ubuntu.com
+  categories:
+    - universe/editors
+- repo: ubuntu_27_04
+  subrepo: tenacious/universe
   srcname: wordgrinder
   binnames:
     - wordgrinder
