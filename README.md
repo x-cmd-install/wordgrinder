@@ -30,9 +30,9 @@ Overall score: **2.3 / 10**
 
 Lowest-scoring checks:
 
-- **Code-Review** (1/10) — Found 1/9 approved changesets -- score normalized to 1
 - **Packaging** (-1/10) — packaging workflow not detected
 - **Maintained** (0/10) — 0 commit(s) and 0 issue activity found in the last 90 days -- score normalized to 0
+- **Code-Review** (1/10) — Found 1/9 approved changesets -- score normalized to 1
 
 ## Source
 
@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 1,276 · **Forks**: 74 · **Open issues**: 201 · **Contributors**: 12
+- **Stars**: 1,276 · **Forks**: 74 · **Open issues**: 202 · **Contributors**: 12
 
 ## Totals (cumulative)
 
-- **Releases**: 18 · **Merged PRs**: 100 · **Open PRs**: 5 · **Closed issues**: 165 · **Open issues**: 36 · **Commits**: 1338
+- **Releases**: 18 · **Merged PRs**: 100 · **Open PRs**: 5 · **Closed issues**: 165 · **Open issues**: 37 · **Commits**: 1338
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-09 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last60d | 2026-09-09 | 0 | 0 | 0 | 0 | 0 | 0 |
-| 90d | 2026-08-10 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last180d | 2026-05-12 | 0 | 1 | 1 | 1 | 1 | 1 |
-| 360d | 2025-11-13 | 0 | 1 | 2 | 2 | 8 | 1 |
-| last720d | 2024-11-18 | 0 | 12 | 3 | 11 | 13 | 71 |
+| 30d | 2026-10-10 | 0 | 0 | 0 | 0 | 1 | 0 |
+| last60d | 2026-09-10 | 0 | 0 | 0 | 0 | 1 | 0 |
+| 90d | 2026-08-11 | 0 | 0 | 0 | 0 | 1 | 0 |
+| last180d | 2026-05-13 | 0 | 1 | 1 | 1 | 2 | 1 |
+| 360d | 2025-11-14 | 0 | 1 | 2 | 2 | 9 | 1 |
+| last720d | 2024-11-19 | 0 | 12 | 3 | 11 | 14 | 71 |
 
 ## Release assets
 
@@ -98,4 +98,4 @@ Install metadata for wordgrinder lives in the [x-cmd/install](https://github.com
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261108.yml` · 2026-11-08T07:14:06Z._
+_Snapshot: `data/card/261109.yml` · 2026-11-09T07:56:20Z._
