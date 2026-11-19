@@ -1,3 +1,17 @@
+- repo: deepin_unstable
+  subrepo: main
+  srcname: wordgrinder
+  binnames:
+    - wordgrinder
+    - wordgrinder-ncurses
+    - wordgrinder-x11
+    - wordgrinder-doc
+  visiblename: wordgrinder
+  version: 0.7.2
+  origversion: 0.7.2-1
+  status: outdated
+  maintainers:
+    - dg@cowlark.com
 - repo: alpine_3_22
   subrepo: community
   srcname: wordgrinder
@@ -142,6 +156,18 @@
     - dg@cowlark.com
   categories:
     - editors
+- repo: openbsd
+  srcname: editors/wordgrinder
+  binname: wordgrinder
+  visiblename: editors/wordgrinder
+  version: "0.8"
+  origversion: null
+  status: newest
+  summary: simple, Unicode-aware word processor on the console
+  maintainers:
+    - ports@openbsd.org
+  categories:
+    - editors
 - repo: debian_12
   subrepo: bookworm/main
   srcname: wordgrinder
@@ -190,20 +216,6 @@
     - dg@cowlark.com
   categories:
     - editors
-- repo: deepin_unstable
-  subrepo: main
-  srcname: wordgrinder
-  binnames:
-    - wordgrinder
-    - wordgrinder-ncurses
-    - wordgrinder-x11
-    - wordgrinder-doc
-  visiblename: wordgrinder
-  version: 0.7.2
-  origversion: 0.7.2-1
-  status: outdated
-  maintainers:
-    - dg@cowlark.com
 - repo: devuan_4_0
   subrepo: chimaera/main
   srcname: wordgrinder
@@ -330,6 +342,21 @@
     - MIT
   categories:
     - Unspecified
+- repo: fedora_45
+  subrepo: release
+  srcname: wordgrinder
+  binnames:
+    - wordgrinder
+    - wordgrinder-x11
+  visiblename: wordgrinder
+  version: "0.8"
+  origversion: 0.8-14.fc45
+  status: newest
+  summary: A command line word processor
+  licenses:
+    - MIT
+  categories:
+    - Unspecified
 - repo: fedora_rawhide
   subrepo: development
   srcname: wordgrinder
@@ -381,39 +408,6 @@
     - MIT
   categories:
     - editors
-- repo: mageia_9
-  subrepo: core/release
-  srcname: wordgrinder
-  binnames:
-    - wordgrinder
-    - wordgrinder-gui
-    - wordgrinder-debuginfo
-    - wordgrinder-debugsource
-  visiblename: wordgrinder
-  version: "0.8"
-  origversion: 0.8-7.mga9
-  status: newest
-  summary: A word processor which gets out of your way
-  licenses:
-    - MIT and BSD and OFL
-  categories:
-    - Editors
-- repo: pureos_byzantium
-  subrepo: byzantium/main
-  srcname: wordgrinder
-  binnames:
-    - wordgrinder
-    - wordgrinder-doc
-    - wordgrinder-ncurses
-    - wordgrinder-x11
-  visiblename: wordgrinder
-  version: "0.8"
-  origversion: 0.8-1
-  status: newest
-  maintainers:
-    - dg@cowlark.com
-  categories:
-    - oldlibs
 - repo: mageia_10
   subrepo: core/release
   srcname: wordgrinder
@@ -510,18 +504,15 @@
     - mail@beyermatthias.de
   licenses:
     - MIT
-- repo: openbsd
-  srcname: editors/wordgrinder
-  binname: wordgrinder
-  visiblename: editors/wordgrinder
+- repo: wikidata
+  srcname: Q18156989
+  visiblename: WordGrinder
   version: "0.8"
   origversion: null
   status: newest
-  summary: simple, Unicode-aware word processor on the console
-  maintainers:
-    - ports@openbsd.org
-  categories:
-    - editors
+  summary: Word processing application
+  licenses:
+    - MIT License
 - repo: openmandriva_rolling
   subrepo: unsupported/release
   srcname: wordgrinder
@@ -571,7 +562,7 @@
   categories:
     - editors
 - repo: parrot
-  subrepo: parrot/main
+  subrepo: parrot-updates/main
   srcname: wordgrinder
   binnames:
     - wordgrinder
@@ -587,7 +578,7 @@
   categories:
     - editors
 - repo: parrot
-  subrepo: parrot-updates/main
+  subrepo: parrot/main
   srcname: wordgrinder
   binnames:
     - wordgrinder
@@ -614,6 +605,22 @@
   version: 0.7.2
   origversion: 0.7.2-1
   status: outdated
+  maintainers:
+    - dg@cowlark.com
+  categories:
+    - oldlibs
+- repo: pureos_byzantium
+  subrepo: byzantium/main
+  srcname: wordgrinder
+  binnames:
+    - wordgrinder
+    - wordgrinder-doc
+    - wordgrinder-ncurses
+    - wordgrinder-x11
+  visiblename: wordgrinder
+  version: "0.8"
+  origversion: 0.8-1
+  status: newest
   maintainers:
     - dg@cowlark.com
   categories:
@@ -929,12 +936,3 @@
     - abenson+void@gmail.com
   licenses:
     - MIT
-- repo: wikidata
-  srcname: Q18156989
-  visiblename: WordGrinder
-  version: "0.8"
-  origversion: null
-  status: newest
-  summary: Word processing application
-  licenses:
-    - MIT License
