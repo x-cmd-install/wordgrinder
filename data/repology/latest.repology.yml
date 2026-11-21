@@ -1,4 +1,4 @@
-- repo: deepin_unstable
+- repo: pardus_21
   subrepo: main
   srcname: wordgrinder
   binnames:
@@ -7,11 +7,29 @@
     - wordgrinder-x11
     - wordgrinder-doc
   visiblename: wordgrinder
-  version: 0.7.2
-  origversion: 0.7.2-1
-  status: outdated
+  version: "0.8"
+  origversion: 0.8-1
+  status: newest
   maintainers:
     - dg@cowlark.com
+  categories:
+    - editors
+- repo: parrot
+  subrepo: parrot-updates/main
+  srcname: wordgrinder
+  binnames:
+    - wordgrinder
+    - wordgrinder-ncurses
+    - wordgrinder-x11
+    - wordgrinder-doc
+  visiblename: wordgrinder
+  version: "0.8"
+  origversion: 0.8-1
+  status: newest
+  maintainers:
+    - dg@cowlark.com
+  categories:
+    - editors
 - repo: alpine_3_22
   subrepo: community
   srcname: wordgrinder
@@ -154,18 +172,6 @@
   status: newest
   maintainers:
     - dg@cowlark.com
-  categories:
-    - editors
-- repo: openbsd
-  srcname: editors/wordgrinder
-  binname: wordgrinder
-  visiblename: editors/wordgrinder
-  version: "0.8"
-  origversion: null
-  status: newest
-  summary: simple, Unicode-aware word processor on the console
-  maintainers:
-    - ports@openbsd.org
   categories:
     - editors
 - repo: debian_12
@@ -504,15 +510,18 @@
     - mail@beyermatthias.de
   licenses:
     - MIT
-- repo: wikidata
-  srcname: Q18156989
-  visiblename: WordGrinder
+- repo: openbsd
+  srcname: editors/wordgrinder
+  binname: wordgrinder
+  visiblename: editors/wordgrinder
   version: "0.8"
   origversion: null
   status: newest
-  summary: Word processing application
-  licenses:
-    - MIT License
+  summary: simple, Unicode-aware word processor on the console
+  maintainers:
+    - ports@openbsd.org
+  categories:
+    - editors
 - repo: openmandriva_rolling
   subrepo: unsupported/release
   srcname: wordgrinder
@@ -545,38 +554,6 @@
     - MIT
   categories:
     - Terminal/Editors
-- repo: pardus_21
-  subrepo: main
-  srcname: wordgrinder
-  binnames:
-    - wordgrinder
-    - wordgrinder-ncurses
-    - wordgrinder-x11
-    - wordgrinder-doc
-  visiblename: wordgrinder
-  version: "0.8"
-  origversion: 0.8-1
-  status: newest
-  maintainers:
-    - dg@cowlark.com
-  categories:
-    - editors
-- repo: parrot
-  subrepo: parrot-updates/main
-  srcname: wordgrinder
-  binnames:
-    - wordgrinder
-    - wordgrinder-ncurses
-    - wordgrinder-x11
-    - wordgrinder-doc
-  visiblename: wordgrinder
-  version: "0.8"
-  origversion: 0.8-1
-  status: newest
-  maintainers:
-    - dg@cowlark.com
-  categories:
-    - editors
 - repo: parrot
   subrepo: parrot/main
   srcname: wordgrinder
@@ -936,3 +913,12 @@
     - abenson+void@gmail.com
   licenses:
     - MIT
+- repo: wikidata
+  srcname: Q18156989
+  visiblename: WordGrinder
+  version: "0.8"
+  origversion: null
+  status: newest
+  summary: Word processing application
+  licenses:
+    - MIT License
