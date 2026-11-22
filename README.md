@@ -24,6 +24,16 @@ Total: **194,189** lines of code across **572** files in the top 5 languages.
 | Lua | 16,088 | 1,373 | 3,045 | 138 |
 | Bitbake | 6,846 | 3 | 3 | 2 |
 
+## OpenSSF Scorecard
+
+Overall score: **2.3 / 10**
+
+Lowest-scoring checks:
+
+- **Code-Review** (1/10) — Found 1/9 approved changesets -- score normalized to 1
+- **Packaging** (-1/10) — packaging workflow not detected
+- **Maintained** (0/10) — 0 commit(s) and 0 issue activity found in the last 90 days -- score normalized to 0
+
 ## Source
 
 - **Upstream**: <https://github.com/davidgiven/wordgrinder>
@@ -48,12 +58,12 @@ Total: **194,189** lines of code across **572** files in the top 5 languages.
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-22 | 0 | 1 | 0 | 1 | 3 | 7 |
-| last60d | 2026-09-22 | 0 | 1 | 0 | 1 | 3 | 7 |
-| 90d | 2026-08-23 | 0 | 1 | 0 | 1 | 3 | 7 |
-| last180d | 2026-05-25 | 0 | 2 | 1 | 2 | 4 | 8 |
-| 360d | 2025-11-26 | 0 | 2 | 2 | 2 | 10 | 8 |
-| last720d | 2024-12-01 | 0 | 13 | 3 | 12 | 16 | 76 |
+| 30d | 2026-10-23 | 0 | 1 | 0 | 1 | 3 | 7 |
+| last60d | 2026-09-23 | 0 | 1 | 0 | 1 | 3 | 7 |
+| 90d | 2026-08-24 | 0 | 1 | 0 | 1 | 3 | 7 |
+| last180d | 2026-05-26 | 0 | 2 | 1 | 2 | 4 | 8 |
+| 360d | 2025-11-27 | 0 | 2 | 2 | 2 | 10 | 8 |
+| last720d | 2024-12-02 | 0 | 13 | 3 | 12 | 16 | 76 |
 
 ## Release assets
 
@@ -88,4 +98,4 @@ Install metadata for wordgrinder lives in the [x-cmd/install](https://github.com
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261121.yml` · 2026-11-21T08:56:10Z._
+_Snapshot: `data/card/261122.yml` · 2026-11-22T08:26:27Z._
