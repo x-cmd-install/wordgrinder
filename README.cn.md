@@ -58,12 +58,12 @@ x install wordgrinder
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-27 | 0 | 1 | 0 | 1 | 3 | 7 |
-| last60d | 2026-09-27 | 0 | 1 | 0 | 1 | 3 | 7 |
-| 90d | 2026-08-28 | 0 | 1 | 0 | 1 | 3 | 7 |
-| last180d | 2026-05-30 | 0 | 2 | 1 | 2 | 4 | 8 |
-| 360d | 2025-12-01 | 0 | 2 | 2 | 2 | 10 | 8 |
-| last720d | 2024-12-06 | 0 | 13 | 3 | 12 | 16 | 76 |
+| 30d | 2026-10-28 | 0 | 1 | 0 | 1 | 3 | 7 |
+| last60d | 2026-09-28 | 0 | 1 | 0 | 1 | 3 | 7 |
+| 90d | 2026-08-29 | 0 | 1 | 0 | 1 | 3 | 7 |
+| last180d | 2026-05-31 | 0 | 2 | 1 | 2 | 4 | 8 |
+| 360d | 2025-12-02 | 0 | 2 | 2 | 2 | 10 | 8 |
+| last720d | 2024-12-07 | 0 | 13 | 3 | 12 | 16 | 76 |
 
 ## Release 资产
 
@@ -72,6 +72,22 @@ x install wordgrinder
 | [WordGrinder-0.9-setup.exe](https://github.com/davidgiven/wordgrinder/releases/download/dev/WordGrinder-0.9-setup.exe) | 1.8 MiB | `other` |
 | [WordGrinder-0.9-setup.pkg](https://github.com/davidgiven/wordgrinder/releases/download/dev/WordGrinder-0.9-setup.pkg) | 1.1 MiB | `other` |
 | [wordgrinder-minimal-dependencies-for-debian.tar.xz](https://github.com/davidgiven/wordgrinder/releases/download/dev/wordgrinder-minimal-dependencies-for-debian.tar.xz) | 1.6 MiB | `other` |
+
+## 发行版状态
+
+在 [repology.org](https://repology.org/project/wordgrinder) 上共有 **65** 个发行版报告此项目。**57** 个 ✅ 已是最新上游版本，**4** 个 ⚠️ 使用旧版本。
+
+| 发行版 | 版本 | 状态 |
+|--------|------|------|
+| Debian unstable | `0.8` | ✅ latest |
+| Debian 13 | `0.8` | ✅ latest |
+| Ubuntu 26.04 LTS | `0.8` | ✅ latest |
+| Ubuntu 24.04 LTS | `0.8` | ✅ latest |
+| Homebrew | `0.8` | ✅ latest |
+| Fedora rawhide | `0.8` | ✅ latest |
+| Nix unstable | `0.8` | ✅ latest |
+| Void | `0.8` | ✅ latest |
+| Alpine edge | `0.8` | ✅ latest |
 
 ## 改进这些数据
 
@@ -82,4 +98,4 @@ wordgrinder 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/insta
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261126.yml` · 2026-11-26T10:18:11Z._
+_数据快照: `data/card/261127.yml` · 2026-11-27T09:18:30Z._
