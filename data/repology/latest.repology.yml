@@ -1,21 +1,5 @@
-- repo: pardus_21
+- repo: raspbian_oldstable
   subrepo: main
-  srcname: wordgrinder
-  binnames:
-    - wordgrinder
-    - wordgrinder-ncurses
-    - wordgrinder-x11
-    - wordgrinder-doc
-  visiblename: wordgrinder
-  version: "0.8"
-  origversion: 0.8-1
-  status: newest
-  maintainers:
-    - dg@cowlark.com
-  categories:
-    - editors
-- repo: parrot
-  subrepo: parrot-updates/main
   srcname: wordgrinder
   binnames:
     - wordgrinder
@@ -554,6 +538,38 @@
     - MIT
   categories:
     - Terminal/Editors
+- repo: pardus_21
+  subrepo: main
+  srcname: wordgrinder
+  binnames:
+    - wordgrinder
+    - wordgrinder-ncurses
+    - wordgrinder-x11
+    - wordgrinder-doc
+  visiblename: wordgrinder
+  version: "0.8"
+  origversion: 0.8-1
+  status: newest
+  maintainers:
+    - dg@cowlark.com
+  categories:
+    - editors
+- repo: parrot
+  subrepo: parrot-updates/main
+  srcname: wordgrinder
+  binnames:
+    - wordgrinder
+    - wordgrinder-ncurses
+    - wordgrinder-x11
+    - wordgrinder-doc
+  visiblename: wordgrinder
+  version: "0.8"
+  origversion: 0.8-1
+  status: newest
+  maintainers:
+    - dg@cowlark.com
+  categories:
+    - editors
 - repo: parrot
   subrepo: parrot/main
   srcname: wordgrinder
@@ -570,22 +586,6 @@
     - dg@cowlark.com
   categories:
     - editors
-- repo: pureos_amber
-  subrepo: amber/main
-  srcname: wordgrinder
-  binnames:
-    - wordgrinder
-    - wordgrinder-doc
-    - wordgrinder-ncurses
-    - wordgrinder-x11
-  visiblename: wordgrinder
-  version: 0.7.2
-  origversion: 0.7.2-1
-  status: outdated
-  maintainers:
-    - dg@cowlark.com
-  categories:
-    - oldlibs
 - repo: pureos_byzantium
   subrepo: byzantium/main
   srcname: wordgrinder
@@ -618,22 +618,6 @@
     - dg@cowlark.com
   categories:
     - oldlibs
-- repo: raspbian_oldstable
-  subrepo: main
-  srcname: wordgrinder
-  binnames:
-    - wordgrinder
-    - wordgrinder-ncurses
-    - wordgrinder-x11
-    - wordgrinder-doc
-  visiblename: wordgrinder
-  version: "0.8"
-  origversion: 0.8-1
-  status: newest
-  maintainers:
-    - dg@cowlark.com
-  categories:
-    - editors
 - repo: raspbian_stable
   subrepo: main
   srcname: wordgrinder
@@ -704,6 +688,19 @@
     - MIT
   categories:
     - debug
+- repo: void_x86_64
+  subrepo: x86_64
+  srcname: wordgrinder
+  binname: wordgrinder
+  visiblename: wordgrinder
+  version: "0.8"
+  origversion: "0.8_1"
+  status: newest
+  summary: Terminal-based word processor
+  maintainers:
+    - abenson+void@gmail.com
+  licenses:
+    - MIT
 - repo: termux
   srcname: wordgrinder
   binname: wordgrinder
@@ -887,19 +884,6 @@
     - ubuntu-devel-discuss@lists.ubuntu.com
   categories:
     - universe/editors
-- repo: void_x86_64
-  subrepo: x86_64
-  srcname: wordgrinder
-  binname: wordgrinder
-  visiblename: wordgrinder
-  version: "0.8"
-  origversion: "0.8_1"
-  status: newest
-  summary: Terminal-based word processor
-  maintainers:
-    - abenson+void@gmail.com
-  licenses:
-    - MIT
 - repo: void_x86_64
   subrepo: x86_64
   srcname: wordgrinder

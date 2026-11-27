@@ -139,7 +139,7 @@
       "state": "uploaded",
       "size": 1727400,
       "digest": "sha256:8db03a769fa3e173aaaedd40d140a22e42d6449c175e441be902ed69dd8ee3c9",
-      "download_count": 13,
+      "download_count": 14,
       "created_at": "2026-11-18T13:03:31Z",
       "updated_at": "2026-11-18T13:03:32Z",
       "browser_download_url": "https://github.com/davidgiven/wordgrinder/releases/download/dev/wordgrinder-minimal-dependencies-for-debian.tar.xz"
